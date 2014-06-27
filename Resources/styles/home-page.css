@@ -1,0 +1,37 @@
+/*navbar*/
+.navbar-custom {
+    background-color:#229922;
+    border-radius:10px;
+}
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a  {
+    color: #FF9C00;
+}
+.navbar-custom .navbar-nav > li > a:hover{
+	color: #FF9C00;
+}
+.navbar-custom .navbar-brand {
+    color:#FF9C00;
+}
+.navbar-custom .navbar-toggle{
+	border: 2px solid white;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #FF9C00;
+}
+.navbar-custom .navbar-toggle .icon-bar{
+	background-color: white;
+}
+.dropdown-menu li a{
+	color:#FFBF00;
+}	
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus{
+	color:#FF9C00;
+}
+.black{
+	color: black;
+}
