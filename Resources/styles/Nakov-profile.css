@@ -1,49 +1,30 @@
 /*reseters*/
+@import url("header.css");
 body, div,li{
 	padding: 0;
 	margin:0;
 	list-style-type: none;
-	font-family: consolas;
-	font-weight: bold;
 }
 img{
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
+	max-width: 100%;
 }
-#photo{
+#profile{
 	position: absolute;
-	top:20px;
-	left:20px;
-}
-#video{
-	position: absolute;
-	top:10px;
-	left: 10px;
+	top:110px;
+	left:10px;
 }
 #content{
-	width: 700px;
-	position: absolute;
-	top:-5px;
-	left: 400px;
+	float: none;
+     margin-left: auto;
+     margin-right: auto;
 }
-div #achievements li{
+#achievements li{
 	list-style-image: url(http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/user-ninja-icon.png);
 	vertical-align: top;
 }
-div #chronology li{
+#chronology li{
 	list-style-image: url(http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/medal-award-gold-icon.png);
 	vertical-align: top;
-}
-div > input[type="submit"]{
-	height: 40px;
-	margin-top: 20px;
-	border:1px solid blue;
-	background-color: #1ccc5c;
-	border-top-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-
-}
-div > input[type="submit"]:hover{
-	background-color: red;
-	cursor:pointer;
 }
