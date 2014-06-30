@@ -1,0 +1,50 @@
+footer .navbar-custom{
+	background-color:#229922;
+}
+footer .container{
+	padding: 15px 0 15px 0;
+}
+footer .navbar-custom h4{
+	color:#FF9C00;
+}
+footer .navbar-custom ul{
+	padding: 0;
+	margin-top: 0;
+}
+footer .navbar-custom  ul li{
+	list-style-type: none;
+	text-decoration: none;
+	display: list-item;
+	padding-bottom: 5px;
+}
+footer .navbar-custom .col-lg-4{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+footer .navbar-custom  a{
+	color:white;
+}
+footer .navbar-custom #friends ul li a:hover{
+	color: #FF9C00;
+	cursor: pointer;
+}
+#creators a{
+	border:2px solid white;
+	text-align: center;
+	margin-bottom: 10px;
+	display: block;
+	padding: 2px 0 2px 0;
+	width: 360px;
+}
+#creators a:nth-child(even){
+	border-radius: 10px 10px 0 0;
+}
+#creators a:nth-child(odd){
+	border-radius: 0 0 10px 10px;
+}
+#creators a:hover{
+	background-color: #FF9C00;
+	cursor: pointer;
+	text-decoration: none;
+	-webkit-transition: all .3s linear;
+}

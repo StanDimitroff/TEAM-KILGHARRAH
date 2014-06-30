@@ -1,7 +1,7 @@
 /*navbar*/
-.navbar-custom {
+header .navbar-custom {
     background-color:#229922;
-    border-radius:10px;
+    border-radius:5px;
 }
 .navbar-custom .navbar-nav > li > a {
     color:#fff;
@@ -11,6 +11,7 @@
 }
 .navbar-custom .navbar-nav > li > a:hover{
 	color: #FF9C00;
+	-webkit-transition: all .3s linear;
 }
 .navbar-custom .navbar-brand {
     color:#FF9C00;

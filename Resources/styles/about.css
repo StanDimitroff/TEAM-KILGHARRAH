@@ -1,1 +1,10 @@
 @import url("header.css");
+@import url("footer.css");
+
+#content{
+	background-color: #82B518;
+	padding: 10px;
+	margin: auto;
+	width: 80%;
+
+}

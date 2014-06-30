@@ -1,28 +1,31 @@
-/*reseters*/
 @import url("header.css");
-body, div,li{
-	padding: 0;
-	margin:0;
-	list-style-type: none;
-}
+@import url("footer.css");
+
 img{
 	width: 250px;
-	height: 250px;
 	max-width: 100%;
 }
 #profile{
 	position: absolute;
 	top:110px;
-	left:10px;
+	left:5px;
 }
 #content{
 	float: none;
-     margin-left: auto;
-     margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid black;
+	border-top-right-radius: 100px;	
+	border-bottom-left-radius: 100px;
+	padding:15px;
+	margin-top: -50px;
+	margin-bottom: 20px;
+	background-color: #82B518;
+
 }
 #achievements li{
 	list-style-image: url(http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/user-ninja-icon.png);
-	vertical-align: top;
+	vertical-align: top; 
 }
 #chronology li{
 	list-style-image: url(http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/medal-award-gold-icon.png);
