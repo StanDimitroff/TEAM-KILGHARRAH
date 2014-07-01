@@ -24,9 +24,9 @@ footer .navbar-custom .col-lg-4{
 footer .navbar-custom  a{
 	color:white;
 }
-footer .navbar-custom #friends ul li a:hover{
-	color: #FF9C00;
+footer .navbar-custom #friends ul li a img{
 	cursor: pointer;
+	width: 80px;
 }
 #creators a{
 	border:2px solid white;
@@ -38,13 +38,17 @@ footer .navbar-custom #friends ul li a:hover{
 }
 #creators a:nth-child(even){
 	border-radius: 10px 10px 0 0;
+	-webkit-transform: rotate(180deg);
 }
 #creators a:nth-child(odd){
 	border-radius: 0 0 10px 10px;
+	-webkit-transform: rotate(180deg);
 }
 #creators a:hover{
 	background-color: #FF9C00;
 	cursor: pointer;
 	text-decoration: none;
 	-webkit-transition: all .3s linear;
+	-webkit-transform: rotate(360deg);
+	-webkit-transition: -webkit-transform 0.8s ease-in;	
 }

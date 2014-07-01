@@ -1,7 +1,6 @@
 /*navbar*/
 header .navbar-custom {
     background-color:#229922;
-    border-radius:5px;
 }
 .navbar-custom .navbar-nav > li > a {
     color:#fff;
@@ -22,6 +21,7 @@ header .navbar-custom {
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
   background-color: #FF9C00;
+  -webkit-transition: all .3s linear;
 }
 .navbar-custom .navbar-toggle .icon-bar{
 	background-color: white;
