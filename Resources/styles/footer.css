@@ -1,11 +1,11 @@
 footer .navbar-custom{
-	background-color:#229922;
+	background-color:#3C3C3C;
 }
 footer .container{
 	padding: 15px 0 15px 0;
 }
 footer .navbar-custom h4{
-	color:#FF9C00;
+	color:#FF3300;
 }
 footer .navbar-custom ul{
 	padding: 0;
@@ -22,10 +22,10 @@ footer .navbar-custom .col-lg-4{
 	padding-left: 15px;
 }
 footer .navbar-custom  a{
-	color:white;
+	color:#FF3300;
 }
 footer .navbar-custom #friends ul li a:hover{
-	color: #FF9C00;
+	color: #FF3300;
 	cursor: pointer;
 }
 #creators a{
@@ -43,7 +43,7 @@ footer .navbar-custom #friends ul li a:hover{
 	border-radius: 0 0 10px 10px;
 }
 #creators a:hover{
-	background-color: #FF9C00;
+	background-color: #FF3300;
 	cursor: pointer;
 	text-decoration: none;
 	-webkit-transition: all .3s linear;
