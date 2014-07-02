@@ -1,2 +1,6 @@
 @import url("header.css");
 @import url("footer.css");
+.alert-danger{
+	width: 90%;
+	margin: auto;
+} 

@@ -10,14 +10,14 @@ img{
 	top:110px;
 	left:5px;
 }
-#content{
+#about, #biography, #achievements{
 	float: none;
     margin-left: auto;
     margin-right: auto;
     border:2px solid black;
-	border-top-right-radius: 100px;	
-	border-bottom-left-radius: 100px;
-	padding:15px;
+	border-top-right-radius: 80px;	
+	border-bottom-left-radius: 80px;
+	padding: 0 15px 30px;
 	margin-top: -50px;
 	margin-bottom: 20px;
 	background-color: #82B518;
@@ -27,7 +27,28 @@ img{
 	list-style-image: url(http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/user-ninja-icon.png);
 	vertical-align: top; 
 }
-#chronology li{
+#biography li{
 	list-style-image: url(http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/medal-award-gold-icon.png);
 	vertical-align: top;
+}
+#sidebar{
+	position: absolute;
+	top:110px;
+	right: 1px;
+	position: fixed;
+}
+#sidebar .list-group a{
+	background-color:#63A521;
+	color:white;
+	margin-bottom: 30px;
+	border:2px solid #FF9C00;
+}
+#sidebar .list-group a:hover{
+	background-color: #FF9C00;
+	-webkit-transition: all .3s linear;
+	color:black;
+}
+#profile img:hover{
+	-webkit-transform: rotate(360deg);
+	-webkit-transition-duration: 1s;
 }
