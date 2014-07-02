@@ -8,5 +8,5 @@ body {
   color: white;
 }
 .carousel-inner > div > img {
-  margin: 0 auto;
+  margin: 20px auto;
 }
