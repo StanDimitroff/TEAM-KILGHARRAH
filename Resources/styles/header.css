@@ -1,11 +1,9 @@
 /*navbar*/
-<<<<<<< HEAD
  header .navbar-custom {
     background-color:#3C3C3C;
-=======
+}
 header .navbar-custom {
-    background-color:#229922;
->>>>>>> 98b2a47364437ec1f42bc7ab01b0e7bea1539312
+    background-color:#3C3C3C;
 }
 .navbar-custom .navbar-nav > li > a {
     color:#FF3300;
@@ -24,15 +22,13 @@ header .navbar-custom {
 .navbar-custom .navbar-toggle {
     border: 2px solid white;
 }
-<<<<<<< HEAD
-.navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
+.navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus 
     background-color: #FF3300;
-=======
+  }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
   background-color: #FF9C00;
   -webkit-transition: all .3s linear;
->>>>>>> 98b2a47364437ec1f42bc7ab01b0e7bea1539312
 }
 .navbar-custom .navbar-toggle .icon-bar {
     background-color: white;
@@ -70,6 +66,7 @@ header .navbar-custom {
     width: 450px;
     height: 50px;
     margin-top: 5px;
+    margin-left: 15px;
     }
 }
 a {

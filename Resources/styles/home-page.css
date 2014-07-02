@@ -7,3 +7,6 @@ body {
   background-color: #CE2900;
   color: white;
 }
+.carousel-inner > div > img {
+  margin: 0 auto;
+}
