@@ -79,6 +79,9 @@ header .navbar-custom {
 .collapse {
   text-align: center;
 }
+.navbar-toggle:hover {
+  background-color: #FF3300;
+}
 a {
     text-shadow: none;
 }

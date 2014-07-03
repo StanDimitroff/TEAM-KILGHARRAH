@@ -1,6 +1,45 @@
 @import url("header.css");
-@import url("footer.css");
-.alert-danger{
-	width: 90%;
-	margin: auto;
-} 
+ @import url("footer.css");
+ .alert-danger {
+    width: 90%;
+    margin: auto;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #CE2900;
+    color: white;
+}
+.wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+footer {
+    display: table-row;
+    height: 1px;
+}
+h4 {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.validations ul {
+    font-size: 20px;
+    list-style: circle;
+}
+.tips {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.alert {
+    margin: 20px auto;
+}
+.validations {
+    margin: 20px auto;
+}
+.validations a {
+    color: white;
+    text-decoration: none;
+}

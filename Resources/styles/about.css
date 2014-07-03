@@ -17,15 +17,15 @@ body {
     font-size: 20px;
 }
 #creators {
-  text-align: left;
+    text-align: left;
 }
 #creators a {
-  display: block;
-  text-decoration: none;
-  color: white;
+    display: block;
+    text-decoration: none;
+    color: white;
 }
 #creators a:hover {
-  color: gray;
+    color: gray;
 }
 .bold {
     font-weight: bold;
