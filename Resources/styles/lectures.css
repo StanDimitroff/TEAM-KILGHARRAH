@@ -1,0 +1,27 @@
+@import url("header.css");
+@import url("footer.css");
+html, body {
+    height: 100%;
+}
+ body {
+    background-color: #CE2900;
+    color: white;
+}
+.wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+footer {
+    display: table-row;
+    height: 1px;
+}
+.tips {
+    font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h4 {
+    font-size: 40px;
+    font-weight: bold;
+}
