@@ -1,26 +1,26 @@
 @import url("header.css");
 @import url("footer.css");
-
+body {
+    background-color: #CE2900;
+    color: white;
+}
 img{
 	width: 250px;
 	max-width: 100%;
 }
 #profile{
-	position: absolute;
-	top:110px;
-	left:5px;
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
 }
 #about, #biography, #achievements{
-	float: none;
-    margin-left: auto;
-    margin-right: auto;
-    border:2px solid black;
-	border-top-right-radius: 80px;	
-	border-bottom-left-radius: 80px;
-	padding: 0 15px 30px;
-	margin-top: -50px;
+	margin-left: auto;
+  margin-right: auto;
+	border-radius: 20px;
+	padding: 10px;
 	margin-bottom: 20px;
-	background-color: #82B518;
+	background-color: #3C3C3C;
+	margin-top: 20px;
 
 }
 #achievements li{
@@ -51,4 +51,13 @@ img{
 #profile img:hover{
 	-webkit-transform: rotate(360deg);
 	-webkit-transition-duration: 1s;
+}
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+footer {
+  display: table-row;
+  height: 1px;
 }

@@ -11,100 +11,137 @@
 </head>
 <body>
 	
-	<header>
-		<!-- LOGO-resizeble -->
-		<nav>
-			<div class="navbar navbar-custom navbar-static-top" role="navigation" > <!-- navigation bar -->
-			<div class="container">
-				<a href="#" class="navbar-brand">SoftUni Survival Guide</a>
-				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<div class="collapse navbar-collapse navHeaderCollapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="home-page.html"><span class="glyphicon glyphicon-home"></span></a></li>
-						<li><a href="about.html">About</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Наков <span class="glyphicon glyphicon-chevron-down"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="Nakov-about.html"><span class="glyphicon glyphicon-hand-right black"></span> About</a></li>
-								<li><a href="Nakov-bio.html"><span class="glyphicon glyphicon-hand-right black"></span> Кратка биография</a></li>
-								<li><a href="Nakov-achievements.html"><span class="glyphicon glyphicon-hand-right black"></span> Лични постижения</a></li>
-
-							</ul>
-						</li>
-						<li><a href="#">Лекции</a></li>
-						<li><a href="#">Домашни</a></li>
-						<li><a href="guide.html">Съвети за оцеляване</a></li>
-						<li><a href="faq.html">FAQ</a></li>
-					</ul>
+	<section class="wrapper">
+		<header>
+		    	    <!-- LOGO-resizeble -->
+		    	    <nav>
+		    	        <div class="navbar navbar-custom navbar-static-top" role="navigation">
+		    	            <!-- navigation bar -->
+		    	            <div class="container">
+		    	                <a href="home-page.html" class="navbar-brand">
+		    	                    <div class="logo col-md-4"></div>
+		    	                </a>
+		    	                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+		    	                    <span class="icon-bar"></span>
+		    	                    <span class="icon-bar"></span>
+		    	                    <span class="icon-bar"></span>
+		    	                </button>
+		    	                <div class="collapse navbar-collapse navHeaderCollapse col-md-8">
+		    	                    <ul class="nav navbar-nav navbar-right">
+		    	                        <li class="active">
+		    	                            <a href="home-page.html">
+		    	                                <span class="glyphicon glyphicon-home"></span>
+		    	                            </a>
+		    	                        </li>
+		    	                        <li><a href="about.html">About</a>
+		    	                        </li>
+		    	                        <li class="dropdown">
+		    	                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Наков <span class="glyphicon glyphicon-chevron-down"></span></a>
+		    	                            <ul class="dropdown-menu">
+		    	                                <li>
+		    	                                    <a href="Nakov-about.html">
+		    	                                        <span class="glyphicon glyphicon-hand-right black"></span>About</a>
+		    	                                </li>
+		    	                                <li>
+		    	                                    <a href="Nakov-bio.html">
+		    	                                        <span class="glyphicon glyphicon-hand-right black"></span>Кратка биография</a>
+		    	                                </li>
+		    	                                <li>
+		    	                                    <a href="Nakov-achievements.html">
+		    	                                        <span class="glyphicon glyphicon-hand-right black"></span>Лични постижения</a>
+		    	                                </li>
+		    	                            </ul>
+		    	                        </li>
+		    	                        <li><a href="#">Лекции</a>
+		    	                        </li>
+		    	                        <li><a href="#">Домашни</a>
+		    	                        </li>
+		    	                        <li><a href="guide.html">Съвети за оцеляване</a>
+		    	                        </li>
+		    	                        <li><a href="faq.html">FAQ</a>
+		    	                        </li>
+		    	                    </ul>
+		    	                </div>
+		    	            </div>
+		    	    </nav>
+		    	</header>
+		<section>
+			<div class="col-lg-3 col-xs-3" id="profile" >
+				<img src="https://softuni.bg/Files/UserFiles/ImageGallery/svetlin_nakov-trainers.jpg"  class="img-responsive img-circle" alt="nakov-photo"/><br><!-- photoshoped -->
+				<span>Айляк на профила</span>
+				<div class="progress">
+		  				<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+		  				90%
+		  				</div>
+				</div>
+				<div class="btn-group">
+		  				<button type="button" class="btn btn-danger">Buy me</button>
+		  				<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+		    				<span class="caret"></span>
+						<span class="sr-only">Toggle Dropdown</span>
+		  				</button>
+		  				<ul class="dropdown-menu" role="menu">
+		    				<li><a href="#">Beer</a></li>
+					    <li><a href="#">Rakia</a></li>
+					    <li><a href="#">Vodka</a></li>
+					    <li><a href="#">Condom</a></li>
+					    <li><a href="#">Alka-Seltzer</a></li>
+				 	</ul>
 				</div>
 			</div>
-		</nav>
-	</header>
-<section>
-		<div class="col-lg-3 col-xs-3" id="profile" >
-			<img src="https://softuni.bg/Files/UserFiles/ImageGallery/svetlin_nakov-trainers.jpg"  class="img-responsive img-circle" alt="nakov-photo"/><br><!-- photoshoped -->
-			<span>Айляк на профила</span>
-			<div class="progress">
-  				<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-  				90%
-  				</div>
+			<div class="col-md-8 col-xs-10" id="biography">
+				<p>
+					<h1>Из живота на Наков</h1>
+					<ul>
+						<li>Когато е на 8 опитва за първи път мастика.Оттогава му е и мечтата "България-анасоновата долина на Европа".На сутринта написва първата си програма на Бейсик "Hello Drunkard".
+						</li>
+						<li>На 14 години хаква кабелната на съседите и гледа безплатно порно.Същата година издава първата си книга "Въведение в онанирането с Левислава и Десислава".Книгата се продава на цената на Mega Pack пакет мокри кърпи, включен към нея.
+						</li>
+						<li>През 2005 започва да води курсове по програмна алхимия или как от говна се прави диамант.
+						</li>
+						<li>През 2007 учредява ОБНК-Организация за борба с насрания код, като основната и цел е да рефакторира всичкия оакан сорс.Не след дълго обаче всички членове напускат под предлог, че работата им много миришела.
+						</li>
+						<li>През 2008 чичо Бил го вика да му работи като чирак в Дъблин, обаче Наков му отказва като му казва, че уискито там било много скъпо и по-добре да си поркал домашнярка в България.
+						</li>
+						<li>През 2011 Пешо и Гошо осъждат Наков за това, че използва имената им в примерите незаконно.След делото Наков ги наема на пълен работен ден и им плаща за даден пример.
+						</li>
+					</ul>
+				</p>
 			</div>
-			<div class="btn-group">
-  				<button type="button" class="btn btn-danger">Buy me</button>
-  				<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
-    				<span class="caret"></span>
-					<span class="sr-only">Toggle Dropdown</span>
-  				</button>
-  				<ul class="dropdown-menu" role="menu">
-    				<li><a href="#">Beer</a></li>
-				    <li><a href="#">Rakia</a></li>
-				    <li><a href="#">Vodka</a></li>
-				    <li><a href="#">Condom</a></li>
-				    <li><a href="#">Alka-Seltzer</a></li>
-			 	</ul>
-			</div>
-		</div>
-		<div class="col-lg-6 col-xs-6" id="biography">
-			<p>
-				<h1>Из живота на Наков</h1>
-				<ul>
-					<li>Когато е на 8 опитва за първи път мастика.Оттогава му е и мечтата "България-анасоновата долина на Европа".На сутринта написва първата си програма на Бейсик "Hello Drunkard".
-					</li>
-					<li>На 14 години хаква кабелната на съседите и гледа безплатно порно.Същата година издава първата си книга "Въведение в онанирането с Левислава и Десислава".Книгата се продава на цената на Mega Pack пакет мокри кърпи, включен към нея.
-					</li>
-					<li>През 2005 започва да води курсове по програмна алхимия или как от говна се прави диамант.
-					</li>
-					<li>През 2007 учредява ОБНК-Организация за борба с насрания код, като основната и цел е да рефакторира всичкия оакан сорс.Не след дълго обаче всички членове напускат под предлог, че работата им много миришела.
-					</li>
-					<li>През 2008 чичо Бил го вика да му работи като чирак в Дъблин, обаче Наков му отказва като му казва, че уискито там било много скъпо и по-добре да си поркал домашнярка в България.
-					</li>
-					<li>През 2011 Пешо и Гошо осъждат Наков за това, че използва имената им в примерите незаконно.След делото Наков ги наема на пълен работен ден и им плаща за даден пример.
-					</li>
-				</ul>
-			</p>
-		</div>
+		</section>
+		
+		<footer>
+		    	    <div class="navbar-custom col-lg-12 navbar-bottom">
+		    	        <div class="container">
+		    	            <div class="col-md-8" id="friends">
+		    	                <h4>Аверчета</h4>
+		    	                <ul>
+		    	                    <li>
+		    	                        <a href="http://softuni.bg/" target="_blank"></a>
+		    	                    </li>
+		    	                    <li><a href="http://vinpromkarnobat.bg/" target="_blank">Винпром Карнобат</a>
+		    	                    </li>
+		    	                    <li><a href="http://www.payner.bg/" target="_blank">Планета Пайнер</a>
+		    	                    </li>
+		    	                    <li><a href="http://ailqk.com" target="_blank">Айляк.com</a>
+		    	                    </li>
+		    	                    <li><a href="https://foursquare.com/v/%D1%81%D0%B4%D0%B2%D1%80--%D0%BE%D1%82%D1%80%D0%B5%D0%B7%D0%B2%D0%B8%D1%82%D0%B5%D0%BB/4f205676e4b00a97bea1079b" target="_blank">Изтрезвително София</a>
+		    	                    </li>
+		    	                    <li><a href="http://www.pirogov.eu/module/toxicology/toxicology.php" target="_blank">Токсикология Пирогов</a>
+		    	                    </li>
+		    	                </ul>
+		    	            </div>
+		    	            <div class="col-md-4" id="creators">
+		    	                <h4>Created by: (in drunk order)</h4>
+		    	                <a href="https://softuni.bg/users/profile/show/tsv.georgieva" target="_blank">Tsvetina Georgieva</a>
+		    	                <a href="https://softuni.bg/users/profile/show/dsmilyanov" target="_blank">Dimitar Smilyanov </a>
+		    	                <a href="https://softuni.bg/users/profile/show/standimitroff" target="_blank">Stanislav Dimitrov</a>
+		    	                <a href="https://softuni.bg/users/profile/show/du4ko" target="_blank">du4ko</a>
+		    	            </div>
+		    	        </div>
+		    	    </div>
+		    	</footer>
 	</section>
-
-	<aside> 
-		<div class="col-lg-3 col-xs-3 pull-right" id="sidebar">
-	    	<div class="list-group ">
-		    	<a href ="Nakov-about.html" class="list-group-item">About</a>
-		    	<a href ="Nakov-bio.html" class="list-group-item">Кратка биография</a>
-		    	<a href ="Nakov-achievements.html" class="list-group-item">Лични постижения</a>
-	    	</div>
-		</div>
-	</aside>
-	<footer>
-		<div class="navbar-custom col-lg-12">
-			<div class="container">
-				<p class="navbar-text">FOOTER</p>
-			</div>
-		</div>
-	</footer> 
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="resources/bootstrap/js/bootstrap.js"></script>
 </body>

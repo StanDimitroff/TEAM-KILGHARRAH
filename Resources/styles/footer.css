@@ -50,7 +50,3 @@ footer .navbar-custom #friends ul li a:hover{
 	-webkit-transform: rotate(360deg);
 	-webkit-transition: -webkit-transform 0.8s ease-in;	
 }
-footer {
-  display: table-row;
-  height: 1px;
-}
