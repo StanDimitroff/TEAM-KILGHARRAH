@@ -10,3 +10,12 @@ body {
 .carousel-inner > div > img {
   margin: 20px auto;
 }
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+footer {
+  display: table-row;
+  height: 1px;
+}

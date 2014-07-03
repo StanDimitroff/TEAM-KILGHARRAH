@@ -14,7 +14,7 @@ footer .navbar-custom ul{
 footer .navbar-custom  ul li{
 	list-style-type: none;
 	text-decoration: none;
-	display: list-item;
+	display: inline-block;
 	padding-bottom: 5px;
 }
 footer .navbar-custom .col-lg-4{
@@ -24,15 +24,8 @@ footer .navbar-custom .col-lg-4{
 footer .navbar-custom  a{
 	color:#FF3300;
 }
-<<<<<<< HEAD
 footer .navbar-custom #friends ul li a:hover{
 	color: #FF3300;
-=======
-footer .navbar-custom #friends ul li a img{
->>>>>>> 98b2a47364437ec1f42bc7ab01b0e7bea1539312
-	cursor: pointer;
-	width: 80px;
-}
 #creators a{
 	border:2px solid white;
 	text-align: center;
@@ -56,4 +49,8 @@ footer .navbar-custom #friends ul li a img{
 	-webkit-transition: all .3s linear;
 	-webkit-transform: rotate(360deg);
 	-webkit-transition: -webkit-transform 0.8s ease-in;	
+}
+footer {
+  display: table-row;
+  height: 1px;
 }
